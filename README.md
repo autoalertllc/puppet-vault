@@ -1,20 +1,6 @@
-[![Puppet Forge](https://img.shields.io/puppetforge/v/jsok/vault.svg)](https://forge.puppetlabs.com/jsok/vault)
-[![Puppet Forge Downloads](https://img.shields.io/puppetforge/dt/jsok/vault.svg)](https://forge.puppetlabs.com/jsok/vault)
-[![Build Status](https://travis-ci.org/jsok/puppet-vault.svg?branch=master)](https://travis-ci.org/jsok/puppet-vault)
-
 # puppet-vault
 
 Puppet module to install and run [Hashicorp Vault](https://vaultproject.io).
-
-## Path to 2.0
-
-Development on a [2.0 release of this module](https://github.com/jsok/puppet-vault/milestone/1) has begun on the `master` branch.
-This includes:
-
- * Dropping EOL Puppet 3 support
- * Adding Puppet 5 support
- * Introducing typed parameters wherever possible
- * Some overdue vault config parameter updates/renames as they have evolved over time
 
 ## Support
 
@@ -206,6 +192,3 @@ where ``<nodeset name>`` is one of the filenames in ``spec/acceptance/nodesets``
 * ``centos-6-x86_64-docker``
 * ``centos-7-x86_64-docker``
 
-## Related Projects
-
- * [`hiera-vault`](https://github.com/jsok/hiera-vault): A Hiera storage backend to retrieve secrets from Hashicorp's Vault
